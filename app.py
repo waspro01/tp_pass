@@ -10,7 +10,7 @@ MESSAGE = os.environ.get(
 
 @app.route("/")
 def home():
-    return f"<h1>{MESSAGE}</h1><p>Version 1</p>"
+    return f"<h1>{MESSAGE}</h1><p>Version 2</p>"
 
 @app.route("/api/health")
 def health():
